@@ -1,3 +1,4 @@
+var categories = [];
 var app = {
     initialize: function () {
         document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
@@ -24,9 +25,23 @@ var app = {
             }, function (error) {
                 alert(error);
             });
+        initializeDefaultStorage();
     }
 };
 app.initialize();
+function initializeDefaultStorage() {
+    NativeStorage.getItem("categories",
+    function onSuccess(obj) {
+        categories = obj;
+        alert(categories);
+    }, function onError(err) {
+        console.log(err.code);
+        var defaultCategories = ["Cordova Tips", "Sweden Tips"];
+        NativeStorage.setItem("categories", defaultCategories,
+            function onSuccess(obj) { alert("Categories successfully initialized!") },
+            function onError(err) { console.log(err.code); });
+    });
+};
 
 /*
 FCM Message definition:
