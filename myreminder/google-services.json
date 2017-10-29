@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1045089762971",
+    "firebase_url": "https://myreminder-fredllaranjo.firebaseio.com",
+    "project_id": "myreminder-fredllaranjo",
+    "storage_bucket": "myreminder-fredllaranjo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045089762971:android:e0703e8fa7971d2c",
+        "android_client_info": {
+          "package_name": "com.gmail.fredllaranjo.myreminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1045089762971-b4s7g42v0ga319674av2n73qvlshlhbd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA51MngQ7xpIWjtv7tBZJK7OFISANChvPA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
