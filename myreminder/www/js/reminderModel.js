@@ -1,5 +1,4 @@
-function Reminder(key, value, list) {
+function Reminder(key, value) {
     this.key = key;
     this.value = value;
-    this.list = list;
 }

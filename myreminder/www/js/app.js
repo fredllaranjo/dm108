@@ -1,5 +1,5 @@
 // Inicializacao
-var myApp = new Framework7({ material: false });
+var myApp = new Framework7({ material: false, template7Pages: true });
 
 // Exportando os seletores
 var $$ = Dom7;

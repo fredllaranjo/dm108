@@ -1,4 +1,5 @@
-function Category(name, image) {
+function Category(name, color, lists) {
     this.name = name;
-    this.image = image;
+    this.color = color;
+    this.lists = lists;
 }
